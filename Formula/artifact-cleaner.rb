@@ -5,23 +5,23 @@ class ArtifactCleaner < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.13.0/artifact-cleaner-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9924387828fdb57fc7d34e54bfc95e7a5e31faf2deb253f10193c4728a9a0d42"
+      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.14.0/artifact-cleaner-v0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "55c5e8146334d2c04be09e5774ec593b95cbc042faa264fe72c0762aabfe3c8f"
     end
     on_intel do
-      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.13.0/artifact-cleaner-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "83ed9deb4ecb9ea56cc32ffc14ccf6ab040b639f0e68a1dcfac271b2dadf7635"
+      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.14.0/artifact-cleaner-v0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cc328ad2c5bb621bdde285c41bca0675b6c18246b157c9fb5c2c9006d86fa0ad"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.13.0/artifact-cleaner-v0.13.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e6b67ef6f81881ac529e1b36dc7891e1b5a553cb753da30474c60160813cd7ed"
+      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.14.0/artifact-cleaner-v0.14.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ef8baf089320ebd5877d0a1fd56c8b9268fbeba2768679acbecd3289c207cb78"
     end
     on_intel do
-      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.13.0/artifact-cleaner-v0.13.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a441278e39c1a128ab4f33ec6a362af6c355cb8cee4bcd1ce67992c3755330f2"
+      url "https://github.com/chefgs/artifact-cleaner/releases/download/v0.14.0/artifact-cleaner-v0.14.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c1543801d4bae6fe285e76060349b57a57ef7de15ea03c4dde8b96d5f34c7df8"
     end
   end
 
