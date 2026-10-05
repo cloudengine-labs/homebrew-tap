@@ -1,8 +1,12 @@
 class SbomSentinel < Formula
   desc "Generate SBOMs, aggregate vulnerability findings, and plan remediation"
   homepage "https://github.com/cloudengine-labs/homebrew-tap"
-  version "0.1.0"
   license "Apache-2.0"
+
+  # The scanners sbom-sentinel drives.
+  depends_on "grype"
+  depends_on "syft"
+  depends_on "trivy"
 
   on_macos do
     on_arm do
@@ -14,11 +18,6 @@ class SbomSentinel < Formula
       sha256 "6a871086f32150e767f4d75985e836ea700daa94d3f911f1aaf16074b3ee1823"
     end
   end
-
-  # The scanners sbom-sentinel drives.
-  depends_on "syft"
-  depends_on "grype"
-  depends_on "trivy"
 
   def install
     bin.install "sbom-sentinel"
