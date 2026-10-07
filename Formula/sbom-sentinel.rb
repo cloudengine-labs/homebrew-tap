@@ -10,12 +10,12 @@ class SbomSentinel < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/cloudengine-labs/homebrew-tap/releases/download/v0.1.1/sbom-sentinel-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7f8ff6be74dc90819b127fb138a1d2f75d2db1ec8ac28dce19cc60cc685eae22"
+      url "https://github.com/cloudengine-labs/homebrew-tap/releases/download/v0.2.0/sbom-sentinel-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3a118cc245e9c6b98f22567ef543136c4dddc9acb8f5ab6b662ffbc3d60468c8"
     end
     on_intel do
-      url "https://github.com/cloudengine-labs/homebrew-tap/releases/download/v0.1.1/sbom-sentinel-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "3a6d84262b5e6ee3a4d7ff48e8fe5956e2333c1d7b5699c3567071e5e7413552"
+      url "https://github.com/cloudengine-labs/homebrew-tap/releases/download/v0.2.0/sbom-sentinel-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c7f02c0b6d3ff14d0ad0a487b59e78269cec7f4c36786263f8fecef2f744fb10"
     end
   end
 
